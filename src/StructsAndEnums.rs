@@ -29,7 +29,7 @@ fn main() {
 
     // fields can be assigned using the dot operator too
     person.id = 2;
-    person.name = "Hetvi Bodhanwala".to_string();
+    person.name = "XYZ".to_string();
     person.age = 22;
     person.salary = 23000.0;
 
@@ -55,7 +55,7 @@ fn main() {
 
     let person3:Person = Person {
         id: 3,
-        name: "Thanuja HR".to_string(),
+        name: "ABC".to_string(),
         ..person2
     };
 
