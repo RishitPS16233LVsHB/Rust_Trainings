@@ -1,5 +1,7 @@
 mod ArrayPractice;
 mod Beginners;
+mod StructsAndEnums;
+mod StructsWithImplementationsAndEnums;
 
 fn main(){
 
