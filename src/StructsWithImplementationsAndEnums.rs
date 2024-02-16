@@ -40,12 +40,13 @@ impl Employee{
     }
 
     // we can make static method by not using the first parameter as self
-    // remember using first parameter in the method makes the method non static and static otherwise
+    // remember using self first parameter in the method makes the method non static and static otherwise
+    // self -> current struct variable
+    // Self -> Type of current struct
     // implementing a method inside an impl <struct_name> makes function a member method like in oop
-
     // static method and also a constructor for our employee struct
     fn create_new_instance() -> Self {
-        let _new:Self =  Employee {
+        let _new:Self =  Self {
             id : 0,
             name : "".to_string(),
             department : "".to_string(),
@@ -83,7 +84,6 @@ impl Employee{
         };
         _new
     }
-
 }
 
 // let us test our code here
@@ -104,6 +104,4 @@ fn main(){
     // incrementing salary of employee2 by 10000
     employee2.increase_salary(10000.0);
     employee2.say_your_name();
-
-
 }
