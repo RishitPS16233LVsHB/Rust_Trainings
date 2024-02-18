@@ -1,24 +1,5 @@
 // structs is a user defined data structure but to that we can add functionality too
 // first we define a struct employee
-
-
-
-// type aliasing to c/c++
-type int = i32;
-type string = String;
-type float = f32;
-type double = f64;
-type long = i64;
-type long_long = i128;
-type short= i16;
-type byte = i8;
-type ubyte = u8;
-type ushort = u16;
-type uint = u32;
-type ulong = u64;
-type ulonglong = u128;
-
-
 struct Employee {
     id: int,
     name: string,
@@ -85,7 +66,20 @@ impl Employee{
         _new
     }
 }
-
+// type aliasing to c/c++
+type int = i32;
+type string = String;
+type float = f32;
+type double = f64;
+type long = i64;
+type long_long = i128;
+type short= i16;
+type byte = i8;
+type ubyte = u8;
+type ushort = u16;
+type uint = u32;
+type ulong = u64;
+type ulonglong = u128;
 // let us test our code here
 fn main(){
 

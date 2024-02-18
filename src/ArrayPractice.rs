@@ -1,4 +1,3 @@
-use std::io::{Read, Write};
 
 fn main(){
     let mut array_of_numbers:[[i32;5];5] = [[0;5];5];

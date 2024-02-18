@@ -2,6 +2,7 @@ mod ArrayPractice;
 mod Beginners;
 mod StructsAndEnums;
 mod StructsWithImplementationsAndEnums;
+mod ArrayOperations;
 
 fn main(){
 
