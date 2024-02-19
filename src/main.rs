@@ -4,6 +4,7 @@ mod StructsAndEnums;
 mod StructsWithImplementationsAndEnums;
 mod ArrayOperations;
 mod Enums;
+mod OptionsAndResults;
 
 fn main(){
 
