@@ -3,6 +3,7 @@ mod Beginners;
 mod StructsAndEnums;
 mod StructsWithImplementationsAndEnums;
 mod ArrayOperations;
+mod Enums;
 
 fn main(){
 
