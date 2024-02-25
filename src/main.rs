@@ -5,6 +5,8 @@ mod StructsWithImplementationsAndEnums;
 mod ArrayOperations;
 mod Enums;
 mod OptionsAndResults;
+mod Hashmaps;
+mod number_frequency_in_vectors;
 
 fn main(){
 
